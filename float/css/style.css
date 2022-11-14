@@ -1,0 +1,54 @@
+.bgn {
+    background-color: #C4C4C4;
+    font-size: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container {
+    background-color: #E6E6E6;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+.container:first-child {
+    margin-top: 0px;
+}
+.container:last-child {
+    margin-bottom: 0px;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.box1 {
+    float: left;  
+}
+.box2 {
+    float: right;
+}
+.box2-1  {
+    float: left;
+}
+.box2-1 img {
+    padding-right: 355px;
+}
+.box2-2 {
+    float: right;
+}
+.box2-2 img {
+    padding-right: 15px;
+    padding-bottom: 100px;
+}
+.box2-2 img:last-child {
+    padding-right: 0px;
+}
+.box3-1 {
+    float: left;
+    padding-right: 170px;
+}
+.box3-2 {
+    float: right;  
+}
+.pdn {
+    padding-right: 15px;
+}
